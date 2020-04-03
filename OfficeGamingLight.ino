@@ -37,10 +37,10 @@ String topicString;
 char topicChar[18];
 int segmultiplier = PixelCount/12;
 
-const char* topic_sub_roomupdate = "OfficeTestLight/roomupdate";  //listen to this topic
-const char* topic_sub_Heartbeat = "OfficeTestLight/Hearbeat"; 
-const char* topic_pub = "OfficeTestLight/status";
-const char* topic_sub_firmware = "OfficeTestLight/commands/firmware";  //listen for firmware update
+const char* topic_sub_roomupdate = "GamingLight/roomupdate";  //listen to this topic
+const char* topic_sub_Heartbeat = "GamingLight/Hearbeat"; 
+const char* topic_pub = "GamingLight/status";
+const char* topic_sub_firmware = "GamingLight/commands/firmware";  //listen for firmware update
 bool command = 0;           //is there a current meeting
 bool prevcommand = 0;
 bool statechange = 1;
