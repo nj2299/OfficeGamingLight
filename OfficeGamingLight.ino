@@ -1,9 +1,9 @@
 /*Top Comment Lines
  * 
  * 
- * Test light
- * 
- * 
+ * Office Gaming Light
+ * Works with MQTT and NodeRed
+ * Production Version
  * Published March 2020
  * Author: NJ
  */
